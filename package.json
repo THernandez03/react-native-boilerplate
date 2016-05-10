@@ -1,0 +1,19 @@
+{
+  "name": "nativ",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "babel": {
+    "presets": [
+      "stage-1",
+      "react-native"
+    ]
+  },
+  "dependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "react": "^0.14.8",
+    "react-native": "^0.25.1"
+  }
+}
